@@ -57,5 +57,6 @@ int main(){
     cout << *arr<<endl<< *(arr+1)<< endl;
     // Pointers can be substracted  by each other if the datatype is same , however they can never be added .
     cout << ptr<<" "<<ptr2<<" "<<ptr-ptr3<<endl;
+    // substraction of pointers represents number of blocks of data types  between two pointers.and they can also be compared.
     return 0;
 }
