@@ -14,5 +14,16 @@ int main(){
         cout << val << " ";
     }
     cout << endl;
-
+    l.pop_back();
+    l.pop_front();
+    for(int val : l){
+        cout << val << " ";
+    }
+    cout << endl;
+    // List can also be initialised like a vector .
+    list <int> l2={1,2,3,4};
+    for(int val : l2){
+        cout << val << " ";
+    }
+    return 0
 }
