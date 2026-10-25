@@ -25,5 +25,5 @@ int main(){
     for(int val : l2){
         cout << val << " ";
     }
-    return 0
+    return 0;
 }
