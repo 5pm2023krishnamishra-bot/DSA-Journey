@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstring>
+#include <algorithm>
 using namespace std;
 
 int main(){
@@ -23,4 +24,9 @@ int main(){
     for (int i=0;i<str.length();i++){
         cout << str[i] << endl;
     }
+    // we can find sub string in a string 
+    cout << str.find("hna"); // returns position of first occurence of substring.
+    //we can also erase a substring or character <str.erase(begin,end)>
+    str.erase(str.begin()+1,str.begin()+4);
+    cout << str << endl;
 }
